@@ -17,7 +17,7 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0
-	github.com/streamingfast/bstream v0.0.2-0.20241108153156-a5c6bc006f41
+	github.com/streamingfast/bstream v0.0.2-0.20250108204816-fd52ed027320
 	github.com/streamingfast/cli v0.0.4-0.20241119021815-815afa473375
 	github.com/streamingfast/dauth v0.0.0-20240222213226-519afc16cf84
 	github.com/streamingfast/dbin v0.9.1-0.20231117225723-59790c798e2c
@@ -31,7 +31,7 @@ require (
 	github.com/streamingfast/payment-gateway v0.0.0-20240426151444-581e930c76e2
 	github.com/streamingfast/pbgo v0.0.6-0.20240823134334-812f6a16c5cb
 	github.com/streamingfast/snapshotter v0.0.0-20230316190750-5bcadfde44d0
-	github.com/streamingfast/substreams v1.11.4-0.20250107211800-ecb3208c257e
+	github.com/streamingfast/substreams v1.11.4-0.20250108204922-c63751bc8134
 	github.com/stretchr/testify v1.9.0
 	github.com/test-go/testify v1.1.4
 	go.uber.org/multierr v1.10.0
