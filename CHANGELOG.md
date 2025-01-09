@@ -10,6 +10,9 @@ If you were at `firehose-core` version `1.0.0` and are bumping to `1.1.0`, you s
 
 ## Unreleased
 
+### Substreams
+
+* Fix an issue preventing proper detection of gzip compression when multiple headers are set (ex: python grpc client)
 * Fix an issue preventing some tier2 requests on last-stage from correctly generating stores. This could lead to some missing "backfilling" jobs and slower time to first block on reconnection.
 
 ## v1.6.8
