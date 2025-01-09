@@ -22,7 +22,7 @@ require (
 	github.com/streamingfast/dauth v0.0.0-20240222213226-519afc16cf84
 	github.com/streamingfast/dbin v0.9.1-0.20231117225723-59790c798e2c
 	github.com/streamingfast/derr v0.0.0-20230515163924-8570aaa43fe1
-	github.com/streamingfast/dgrpc v0.0.0-20240423143010-f36784700c9a
+	github.com/streamingfast/dgrpc v0.0.0-20250109212433-ae21a7f7a01a
 	github.com/streamingfast/dhammer v0.0.0-20230125192823-c34bbd561bd4
 	github.com/streamingfast/dmetering v0.0.0-20241101155221-489f5a9d9139
 	github.com/streamingfast/dmetrics v0.0.0-20230919161904-206fa8ebd545
@@ -31,7 +31,7 @@ require (
 	github.com/streamingfast/payment-gateway v0.0.0-20240426151444-581e930c76e2
 	github.com/streamingfast/pbgo v0.0.6-0.20240823134334-812f6a16c5cb
 	github.com/streamingfast/snapshotter v0.0.0-20230316190750-5bcadfde44d0
-	github.com/streamingfast/substreams v1.11.4-0.20250109182709-0d625ab7408e
+	github.com/streamingfast/substreams v1.11.4-0.20250109213525-f6731243efb1
 	github.com/stretchr/testify v1.9.0
 	github.com/test-go/testify v1.1.4
 	go.uber.org/multierr v1.10.0

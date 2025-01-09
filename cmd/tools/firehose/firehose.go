@@ -117,7 +117,7 @@ func addFirehoseStreamClientFlagsToSet[B firecore.Block](flags *pflag.FlagSet, c
 func addFirehoseFetchClientFlagsToSet[B firecore.Block](flags *pflag.FlagSet, chain *firecore.Chain[B]) {
 	flags.StringP("api-token-env-var", "a", "FIREHOSE_API_TOKEN", "Look for a JWT in this environment variable to authenticate against endpoint (alternative to api-key-env-var)")
 	flags.String("api-key-env-var", "FIREHOSE_API_KEY", "Look for an API key directly in this environment variable to authenticate against endpoint (alternative to api-token-env-var)")
-	flags.String("compression", "none", "The HTTP compression: use either 'none', 'gzip' or 'zstd'")
+	flags.String("compression", "zstd", "The HTTP compression: use either 'none', 'gzip' or 'zstd'")
 	flags.BoolP("plaintext", "p", false, "Use plaintext connection to Firehose")
 	flags.BoolP("insecure", "k", false, "Use SSL connection to Firehose but skip SSL certificate validation")
 	if chain.Tools.TransformFlags != nil {
