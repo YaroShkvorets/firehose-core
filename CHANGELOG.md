@@ -8,13 +8,14 @@ Operators, you should copy/paste content of this content straight to your projec
 
 If you were at `firehose-core` version `1.0.0` and are bumping to `1.1.0`, you should copy the content between those 2 version to your own repository, replacing placeholder value `fire{chain}` with your chain's own binary.
 
-## Unreleased
+## v1.6.9
 
 ### Substreams
 
-* Add support for zstd encoding on server
 * Fix an issue preventing proper detection of gzip compression when multiple headers are set (ex: python grpc client)
 * Fix an issue preventing some tier2 requests on last-stage from correctly generating stores. This could lead to some missing "backfilling" jobs and slower time to first block on reconnection.
+* Fix a thread leak on cursor resolution resulting in bad counter for active connections
+* Add support for zstd encoding on server
 
 ## v1.6.8
 
